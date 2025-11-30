@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messages>
+    <enum name="用户手册">
+        <field name="Player">
+        </field>
+        <field name="Enemy">
+        </field>
+    </enum>
+    <enum name="设置">
+        <field name="常规">
+        </field>
+    </enum>
+</messages>
