@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Reflection;
 using UnityEngine;
 using UnityEngine.Events;
 public abstract class EventInfoBase
@@ -31,6 +30,7 @@ public class EventMgr : BaseMgr_Mono<EventMgr>
     {
 
     }
+    #region 触发带参事件
     /// <summary>
     /// 触发目标事件(传入目标参数)
     /// </summary>
@@ -62,7 +62,7 @@ public class EventMgr : BaseMgr_Mono<EventMgr>
         }
     }
     /// <summary>
-    /// 移除事件(传入目标参数)
+    /// 移除回调(传入目标参数)
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="name"></param>
@@ -74,6 +74,8 @@ public class EventMgr : BaseMgr_Mono<EventMgr>
             (eventDic[name] as EventInfo<T>).actions -= func;
         }
     }
+    #endregion
+    #region 触发无参事件
     /// <summary>
     /// 触发目标事件(无参数)
     /// </summary>
@@ -102,7 +104,7 @@ public class EventMgr : BaseMgr_Mono<EventMgr>
         }
     }
     /// <summary>
-    /// 移除事件(无参数)
+    /// 移除回调(无参数)
     /// </summary>
     /// <param name="name"></param>
     /// <param name="func"></param>
@@ -113,18 +115,23 @@ public class EventMgr : BaseMgr_Mono<EventMgr>
             (eventDic[name] as EventInfo).actions -= func;
         }
     }
-    // <summary>
-    /// 清空所有事件
+    /// <summary>
+    /// 移除普通事件
     /// </summary>
-    public void Clear()
-    {
-        eventDic.Clear();
-    }
+    /// <param name="name"></param>
     public void Clear(EventType name)
     {
         if (eventDic.ContainsKey(name))
         {
             eventDic.Remove(name);
         }
+    }
+    #endregion
+    /// <summary>
+    /// 清空所有事件
+    /// </summary>
+    public void Clear()
+    {
+        eventDic.Clear();
     }
 }

@@ -1,4 +1,4 @@
 public enum EventType
 {
-    BaseEvent
+    BaseEvent,Move
 }
