@@ -15,7 +15,7 @@ namespace YoyoCore
         private bool OpenMaxMenuTitle = true;
         private bool OpenMinMenuTitle = true;
         private const int BUTTON_HEIGHT = 20;
-        Vector2 Allvector2;
+        private Vector2 ContentScroller;
         [MenuItem(YoyoCoreMenuItem.Preferences)]
         static void OpenDocument()
         {
@@ -35,9 +35,11 @@ namespace YoyoCore
             CreateMinTitleButton(MenuValue);
             GUILayout.EndVertical();
             GUILayout.BeginVertical();
+            ContentScroller = EditorGUILayout.BeginScrollView(ContentScroller, GUILayout.Width(position.width), GUILayout.Height(position.height));
+            GUILayout.Label(CONTENT, TextTools.InitMarkDownStyle());
+            EditorGUILayout.EndScrollView();
             GUILayout.EndVertical();
             GUILayout.EndHorizontal();
-            GUI.Label(new Rect(420, 0, position.width - 420,position.height),CONTENT,TextTools.InitMarkDownStyle());
         }
         private void InitMenu()
         {
