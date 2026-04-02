@@ -10,7 +10,7 @@ public class PoolData
     private int MaxCount;
     public PoolData(GameObject root, string name, GameObject usedObj,int maxcount)
     {
-        if (PoolMgr.IsOpenLayOut)
+        if (Setting.IsOpenLayOut)
         {
             rootObj = new GameObject();
             rootObj.transform.SetParent(root.transform);
@@ -56,7 +56,7 @@ public class PoolData
     public void Push(GameObject obj)
     {
         obj.SetActive(false);
-        if (PoolMgr.IsOpenLayOut)
+        if (Setting.IsOpenLayOut)
         {
             obj.transform.SetParent(rootObj.transform);
         }
@@ -74,7 +74,6 @@ public class PoolMgr : BaseMgr<PoolMgr>
     }
     private Dictionary<string, PoolData> poolDic = new Dictionary<string, PoolData>();
     private GameObject PoolObj;
-    public static bool IsOpenLayOut = true;
     /// <summary>
     /// 初始化对象池
     /// </summary>
@@ -82,7 +81,7 @@ public class PoolMgr : BaseMgr<PoolMgr>
     /// <param name="maxcount"></param>
     public void InitPool(GameObject obj,int maxcount = 50)
     {
-        if (poolDic.Count == 0 && IsOpenLayOut)
+        if (poolDic.Count == 0 && Setting.IsOpenLayOut)
         {
             PoolObj = new GameObject("Pool");
         }
