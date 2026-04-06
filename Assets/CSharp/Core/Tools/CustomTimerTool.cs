@@ -6,13 +6,15 @@ using UnityEngine;
 public class CustomTimerTool : IDisposable
 {
     private string Name;
-    private uint RepeatCount;
     private float StartTime;
-    public CustomTimerTool(string name, uint num)
+    /// <summary>
+    /// 检测代码块的执行时间，单位为毫秒
+    /// </summary>
+    /// <param name="name"></param>
+    /// <param name="num"></param>
+    public CustomTimerTool(string name)
     {
         Name = name;
-        RepeatCount = num;
-        if (num == 0) num = 1;
         StartTime = Time.realtimeSinceStartup;
     }
     public void Dispose()
