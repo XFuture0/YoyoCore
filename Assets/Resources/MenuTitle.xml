@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <messages>
-    <enum name="用户手册">
-        <field name="Player">
+    <enum name="管理器">
+        <field name="管理器基类">
         </field>
-        <field name="Enemy">
+        <field name="Mono管理器">
+        </field>
+        <field name="事件中心">
+        </field>
+        <field name="输入管理器">
+        </field>
+        <field name="对象池">
+        </field>
+        <field name="资源加载">
+        </field>
+        <field name="场景切换">
+        </field>
+        <field name="音频管理器">
+        </field>
+        <field name="计时器管理器">
+        </field>
+    </enum>
+    <enum name="工具">
+        <field name="Debug工具">
+        </field>
+        <field name="基本数学工具">
+        </field>
+        <field name="射线投射工具">
+        </field>
+        <field name="代码耗时检测工具">
         </field>
     </enum>
     <enum name="设置">
-        <field name="常规">
+        <field name="总设置">
+        </field>
+        <field name="事件枚举">
         </field>
     </enum>
 </messages>
