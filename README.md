@@ -48,7 +48,7 @@ Yoyo Core
 
 ### 1. 导入框架
 
-将`Assets`中的 `CSharp` 和 `Editor` 文件夹复制到你的项目中：
+将`Assets`中的 `CSharp` 和 `Editor` 和`Resources` 文件夹复制到你的项目中：
 
 ### 2. 使用管理器
 
