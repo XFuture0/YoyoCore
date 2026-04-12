@@ -1,7 +1,10 @@
-
-* name：yoyo-core-skill
-* description：Use Yoyo_Core with Skill
-
+---
+name: yoyo-core-skill
+description: use yoyocore with skill
+metadata:
+  author: github.com/XFuture0
+  version: v1.0.0
+---
 当用户要求"使用核心"、"使用Core"或"使用yoyo"或"-Core"时，可以应用此技能。
 
 ## 书写工作流
