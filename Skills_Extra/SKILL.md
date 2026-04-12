@@ -5,7 +5,7 @@ metadata:
   author: github.com/XFuture0
   version: v1.0.0
 ---
-当用户要求"使用核心"、"使用Core"或"使用yoyo"或"-Core"时，可以应用此技能。
+当用户要求"使用核心写代码"、"使用Core写代码"或"使用yoyo写代码"、"像yoyo那样写代码"或“像Core那样写代码”时，可以应用此技能。
 
 ## 书写工作流
 
