@@ -1,9 +1,8 @@
-<div style="text-align: center; font-size: 30px; font-weight: bold;">
-Yoyo_Core.skill
-
----
-
-<div style="text-align: center; font-size: 18px;">
+<div align="center">
+<b>Yoyo_Core.skill</b>
+</div>
+<br>
+<div align="center">
     想要快速上手Yoyo_Core?<br>
     想要快速使用Yoyo_Core?<br>
     想学习使用Yoyo_Core但不知道从哪开始？<br>
