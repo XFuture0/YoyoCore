@@ -1,3 +1,6 @@
+**name：Yoyo_Core_Skill**
+**description：Use Yoyo_Core with Skill**
+
 当用户要求"使用核心"、"使用Core"或"使用yoyo"或"-Core"时，可以应用此技能。
 
 ## 书写工作流
