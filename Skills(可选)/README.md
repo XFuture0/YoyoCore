@@ -8,8 +8,8 @@
 
 ```
 # 方式1：本地安装
-npx skills add https://github.com/XFuture0/YoyoCore/tree/main/Skills
+npx skills add https://github.com/XFuture0/YoyoCore/tree/main/Skills(可选)
 
 # 方式2：全局安装
-npx skills add https://github.com/XFuture0/YoyoCore/tree/main/Skills -g
+npx skills add https://github.com/XFuture0/YoyoCore/tree/main/Skills(可选) -g
 ```
