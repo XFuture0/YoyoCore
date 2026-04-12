@@ -1,3 +1,17 @@
+<div style="text-align: center; font-size: 30px; font-weight: bold;">
+Yoyo_Core.skill
+
+---
+
+<div style="text-align: center; font-size: 18px;">
+    想要快速上手Yoyo_Core?<br>
+    想要快速使用Yoyo_Core?<br>
+    想学习使用Yoyo_Core但不知道从哪开始？<br>
+    将冰冷的Yoyo_Core转化为温暖的Skill,欢迎加入Yoyo_Core!<br>
+    <br>
+    提供你想要制作的内容<br>
+    生成一个基于Yoyo_Core的代码<br>
+
 ## 安装
 
 
