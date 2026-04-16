@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <messages>
+    <enum name="介绍">
+        <field name="作者的话">
+        </field>
+    </enum>
     <enum name="管理器">
         <field name="管理器基类">
         </field>
