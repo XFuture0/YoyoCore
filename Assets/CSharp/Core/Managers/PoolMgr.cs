@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.EditorTools;
 using UnityEngine;
@@ -49,7 +49,7 @@ public class PoolData
         }
         else
         {
-            Debug.LogWarning($"¸Ã¶ÔÏó³Ø{rootObj}³¬³ö×î´óÊıÁ¿ÏŞÖÆ,µ±Ç°×î´óÊıÁ¿Îª{MaxCount},ÇëÖ´ĞĞÀ©Èİ²Ù×÷");
+            Debug.LogWarning($"è¯¥å¯¹è±¡æ± {rootObj}è¶…å‡ºæœ€å¤§æ•°é‡é™åˆ¶,å½“å‰æœ€å¤§æ•°é‡ä¸º{MaxCount},è¯·æ‰§è¡Œæ‰©å®¹æ“ä½œ");
         }
         return obj;
     }
@@ -64,7 +64,7 @@ public class PoolData
     }
 }
 /// <summary>
-/// ¶ÔÏó³Ø¹ÜÀíµ¥Àı
+/// å¯¹è±¡æ± ç®¡ç†å•ä¾‹
 /// </summary>
 public class PoolMgr : BaseMgr<PoolMgr>
 {
@@ -75,7 +75,7 @@ public class PoolMgr : BaseMgr<PoolMgr>
     private Dictionary<string, PoolData> poolDic = new Dictionary<string, PoolData>();
     private GameObject PoolObj;
     /// <summary>
-    /// ³õÊ¼»¯¶ÔÏó³Ø
+    /// åˆå§‹åŒ–å¯¹è±¡æ± 
     /// </summary>
     /// <param name="obj"></param>
     /// <param name="maxcount"></param>
@@ -91,11 +91,11 @@ public class PoolMgr : BaseMgr<PoolMgr>
         }
         else
         {
-            Debug.LogWarning($"´Ë¶ÔÏó³Ø{obj.name}ÒÑ´æÔÚ,ÇëÎğÖØ¸´´´½¨");
+            Debug.LogWarning($"æ­¤å¯¹è±¡æ± {obj.name}å·²å­˜åœ¨,è¯·å‹¿é‡å¤åˆ›å»º");
         }
     }
     /// <summary>
-    /// »ñÈ¡¶ÔÏó³Ø¶ÔÏó
+    /// è·å–å¯¹è±¡æ± å¯¹è±¡
     /// </summary>
     /// <param name="name"></param>
     /// <returns></returns>
@@ -108,13 +108,13 @@ public class PoolMgr : BaseMgr<PoolMgr>
         }
         else
         {
-            Debug.LogWarning($"´Ë¶ÔÏó{name}ÏÈÇ°ÎŞInit¼ÇÂ¼,ÇëÏÈÖ´ĞĞInit²Ù×÷");
+            Debug.LogWarning($"æ­¤å¯¹è±¡{name}å…ˆå‰æ— Initè®°å½•,è¯·å…ˆæ‰§è¡ŒInitæ“ä½œ");
         }
         obj.name = name;
         return obj;
     }
     /// <summary>
-    /// ·µ»Ø¶ÔÏóµ½¶ÔÏó³Ø
+    /// è¿”å›å¯¹è±¡åˆ°å¯¹è±¡æ± 
     /// </summary>
     /// <param name="obj"></param>
     public void PushObj(GameObject obj)
@@ -122,7 +122,7 @@ public class PoolMgr : BaseMgr<PoolMgr>
         poolDic[obj.name].Push(obj);
     }
     /// <summary>
-    /// Çå¿Õ¶ÔÏó³Ø
+    /// æ¸…ç©ºå¯¹è±¡æ± 
     /// </summary>
     public void ClearPool()
     {

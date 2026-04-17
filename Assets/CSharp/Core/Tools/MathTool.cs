@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,7 +7,7 @@ using UnityEngine.Events;
 public class MathTool
 {
     /// <summary>
-    /// ½Ç¶ÈÖÆ×ª»¡¶ÈÖÆ
+    /// è§’åº¦åˆ¶è½¬å¼§åº¦åˆ¶
     /// </summary>
     /// <param name="deg"></param>
     /// <returns></returns>
@@ -16,7 +16,7 @@ public class MathTool
         return deg * Mathf.Deg2Rad;
     }
     /// <summary>
-    /// »¡¶ÈÖÆ×ª½Ç¶ÈÖÆ
+    /// å¼§åº¦åˆ¶è½¬è§’åº¦åˆ¶
     /// </summary>
     /// <param name="rad"></param>
     /// <returns></returns>
@@ -25,7 +25,7 @@ public class MathTool
         return rad * Mathf.Rad2Deg;
     }
     /// <summary>
-    /// »ñÈ¡ÔÚYÖáÆ½ÃæÉÏÁ½µãÖ®¼äµÄ¾àÀë
+    /// è·å–åœ¨Yè½´å¹³é¢ä¸Šä¸¤ç‚¹ä¹‹é—´çš„è·ç¦»
     /// </summary>
     /// <param name="pos1"></param>
     /// <param name="pos2"></param>
@@ -37,7 +37,7 @@ public class MathTool
         return Vector3.Distance(pos1, pos2);
     }
     /// <summary>
-    /// »ñÈ¡ÔÚZÖáÆ½ÃæÉÏÁ½µãÖ®¼äµÄ¾àÀë
+    /// è·å–åœ¨Zè½´å¹³é¢ä¸Šä¸¤ç‚¹ä¹‹é—´çš„è·ç¦»
     /// </summary>
     /// <param name="pos1"></param>
     /// <param name="pos2"></param>
@@ -49,7 +49,7 @@ public class MathTool
         return Vector3.Distance(pos1, pos2);
     }
     /// <summary>
-    /// »ñÈ¡ÔÚXÖáÆ½ÃæÉÏÁ½µãÖ®¼äµÄ¾àÀë
+    /// è·å–åœ¨Xè½´å¹³é¢ä¸Šä¸¤ç‚¹ä¹‹é—´çš„è·ç¦»
     /// </summary>
     /// <param name="pos1"></param>
     /// <param name="pos2"></param>
@@ -61,7 +61,7 @@ public class MathTool
         return Vector3.Distance(pos1, pos2);
     }
     /// <summary>
-    /// ÅĞ¶ÏYÖáÆ½ÃæÉÏÁ½µãÖ®¼äµÄ¾àÀëÊÇ·ñĞ¡ÓÚµÈÓÚ¸ø¶¨¾àÀë
+    /// åˆ¤æ–­Yè½´å¹³é¢ä¸Šä¸¤ç‚¹ä¹‹é—´çš„è·ç¦»æ˜¯å¦å°äºç­‰äºç»™å®šè·ç¦»
     /// </summary>
     /// <param name="pos1"></param>
     /// <param name="pos2"></param>
@@ -72,7 +72,7 @@ public class MathTool
         return GetDistanceXZ(pos1, pos2) <= distance;
     }
     /// <summary>
-    /// ÅĞ¶ÏZÖáÆ½ÃæÉÏÁ½µãÖ®¼äµÄ¾àÀëÊÇ·ñĞ¡ÓÚµÈÓÚ¸ø¶¨¾àÀë
+    /// åˆ¤æ–­Zè½´å¹³é¢ä¸Šä¸¤ç‚¹ä¹‹é—´çš„è·ç¦»æ˜¯å¦å°äºç­‰äºç»™å®šè·ç¦»
     /// </summary>
     /// <param name="pos1"></param>
     /// <param name="pos2"></param>
@@ -83,7 +83,7 @@ public class MathTool
         return GetDistanceXY(pos1, pos2) <= distance;
     }
     /// <summary>
-    /// ÅĞ¶ÏXÖáÆ½ÃæÉÏÁ½µãÖ®¼äµÄ¾àÀëÊÇ·ñĞ¡ÓÚµÈÓÚ¸ø¶¨¾àÀë
+    /// åˆ¤æ–­Xè½´å¹³é¢ä¸Šä¸¤ç‚¹ä¹‹é—´çš„è·ç¦»æ˜¯å¦å°äºç­‰äºç»™å®šè·ç¦»
     /// </summary>
     /// <param name="pos1"></param>
     /// <param name="pos2"></param>
@@ -94,7 +94,7 @@ public class MathTool
         return GetDistanceYZ(pos1, pos2) <= distance;
     }
     /// <summary>
-    /// ÅĞ¶ÏÊÀ½ç×ø±êµãÊÇ·ñÔÚÆÁÄ»ÄÚ
+    /// åˆ¤æ–­ä¸–ç•Œåæ ‡ç‚¹æ˜¯å¦åœ¨å±å¹•å†…
     /// </summary>
     /// <param name="pos"></param>
     /// <returns></returns>
@@ -111,7 +111,7 @@ public class MathTool
         }
     }
     /// <summary>
-    /// ÅĞ¶ÏÔÚYÖáÆ½ÃæÉÏÊÀ½ç×ø±êµãÊÇ·ñÔÚÉÈĞÎÄÚ
+    /// åˆ¤æ–­åœ¨Yè½´å¹³é¢ä¸Šä¸–ç•Œåæ ‡ç‚¹æ˜¯å¦åœ¨æ‰‡å½¢å†…
     /// </summary>
     /// <param name="pos"></param>
     /// <param name="forward"></param>
@@ -127,7 +127,7 @@ public class MathTool
         return Vector3.Distance(pos, target) <= radius && Vector3.Angle(forward, target - pos) <= angle / 2f;
     }
     /// <summary>
-    /// ÉäÏß¼ì²â£¨Collider£©
+    /// å°„çº¿æ£€æµ‹ï¼ˆColliderï¼‰
     /// </summary>
     /// <param name="ray"></param>
     /// <param name="callback"></param>
@@ -142,7 +142,7 @@ public class MathTool
         }
     }
     /// <summary>
-    /// ÉäÏß¼ì²â£¨GameObject£©
+    /// å°„çº¿æ£€æµ‹ï¼ˆGameObjectï¼‰
     /// </summary>
     /// <param name="ray"></param>
     /// <param name="callback"></param>
@@ -157,7 +157,7 @@ public class MathTool
         }
     }
     /// <summary>
-    /// ÉäÏß¼ì²â£¨Component£©
+    /// å°„çº¿æ£€æµ‹ï¼ˆComponentï¼‰
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="ray"></param>
@@ -173,7 +173,7 @@ public class MathTool
         }
     }
     /// <summary>
-    /// ÉäÏß¼ì²â£¨ËùÓĞCollider£©
+    /// å°„çº¿æ£€æµ‹ï¼ˆæ‰€æœ‰Colliderï¼‰
     /// </summary>
     /// <param name="ray"></param>
     /// <param name="callback"></param>
@@ -188,7 +188,7 @@ public class MathTool
         }
     }
     /// <summary>
-    /// ÉäÏß¼ì²â£¨ËùÓĞGameObject£©
+    /// å°„çº¿æ£€æµ‹ï¼ˆæ‰€æœ‰GameObjectï¼‰
     /// </summary>
     /// <param name="ray"></param>
     /// <param name="callback"></param>
@@ -203,7 +203,7 @@ public class MathTool
         }
     }
     /// <summary>
-    /// ÉäÏß¼ì²â£¨ËùÓĞComponent£©
+    /// å°„çº¿æ£€æµ‹ï¼ˆæ‰€æœ‰Componentï¼‰
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="ray"></param>
@@ -219,7 +219,7 @@ public class MathTool
         }
     }
     /// <summary>
-    /// ¾ØĞÎºĞ¼ì²â
+    /// çŸ©å½¢ç›’æ£€æµ‹
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="pos"></param>
@@ -248,7 +248,7 @@ public class MathTool
         }
     }
     /// <summary>
-    /// ÇòÌå¼ì²â
+    /// çƒä½“æ£€æµ‹
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="pos"></param>

@@ -1,8 +1,8 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 /// <summary>
-/// ¼Ì³ĞMonoµ¥Àı
+/// ç»§æ‰¿Monoå•ä¾‹
 /// </summary>
 /// <typeparam name="T"></typeparam>
 public class BaseMgr_Mono<T> : MonoBehaviour where T : MonoBehaviour

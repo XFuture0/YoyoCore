@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -30,9 +30,9 @@ public class EventMgr : BaseMgr_Mono<EventMgr>
     {
 
     }
-    #region ´¥·¢´ø²ÎÊÂ¼ş
+    #region è§¦å‘å¸¦å‚äº‹ä»¶
     /// <summary>
-    /// ´¥·¢Ä¿±êÊÂ¼ş(´«ÈëÄ¿±ê²ÎÊı)
+    /// è§¦å‘ç›®æ ‡äº‹ä»¶(ä¼ å…¥ç›®æ ‡å‚æ•°)
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="eventName"></param>
@@ -45,7 +45,7 @@ public class EventMgr : BaseMgr_Mono<EventMgr>
         }
     }
     /// <summary>
-    /// Ìí¼ÓÊÂ¼ş,ÊÂ¼şÌí¼ÓºóÒª¼ÇµÃÒÆ³ı(´«ÈëÄ¿±ê²ÎÊı)
+    /// æ·»åŠ äº‹ä»¶,äº‹ä»¶æ·»åŠ åè¦è®°å¾—ç§»é™¤(ä¼ å…¥ç›®æ ‡å‚æ•°)
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="name"></param>
@@ -62,7 +62,7 @@ public class EventMgr : BaseMgr_Mono<EventMgr>
         }
     }
     /// <summary>
-    /// ÒÆ³ı»Øµ÷(´«ÈëÄ¿±ê²ÎÊı)
+    /// ç§»é™¤å›è°ƒ(ä¼ å…¥ç›®æ ‡å‚æ•°)
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="name"></param>
@@ -75,9 +75,9 @@ public class EventMgr : BaseMgr_Mono<EventMgr>
         }
     }
     #endregion
-    #region ´¥·¢ÎŞ²ÎÊÂ¼ş
+    #region è§¦å‘æ— å‚äº‹ä»¶
     /// <summary>
-    /// ´¥·¢Ä¿±êÊÂ¼ş(ÎŞ²ÎÊı)
+    /// è§¦å‘ç›®æ ‡äº‹ä»¶(æ— å‚æ•°)
     /// </summary>
     /// <param name="eventName"></param>
     public void EventTrigger(EventType eventName)
@@ -88,7 +88,7 @@ public class EventMgr : BaseMgr_Mono<EventMgr>
         }
     }
     /// <summary>
-    /// Ìí¼ÓÊÂ¼ş,ÊÂ¼şÌí¼ÓºóÒª¼ÇµÃÒÆ³ı(ÎŞ²ÎÊı)
+    /// æ·»åŠ äº‹ä»¶,äº‹ä»¶æ·»åŠ åè¦è®°å¾—ç§»é™¤(æ— å‚æ•°)
     /// </summary>
     /// <param name="name"></param>
     /// <param name="func"></param>
@@ -104,7 +104,7 @@ public class EventMgr : BaseMgr_Mono<EventMgr>
         }
     }
     /// <summary>
-    /// ÒÆ³ı»Øµ÷(ÎŞ²ÎÊı)
+    /// ç§»é™¤å›è°ƒ(æ— å‚æ•°)
     /// </summary>
     /// <param name="name"></param>
     /// <param name="func"></param>
@@ -116,7 +116,7 @@ public class EventMgr : BaseMgr_Mono<EventMgr>
         }
     }
     /// <summary>
-    /// ÒÆ³ıÆÕÍ¨ÊÂ¼ş
+    /// ç§»é™¤æ™®é€šäº‹ä»¶
     /// </summary>
     /// <param name="name"></param>
     public void Clear(EventType name)
@@ -128,7 +128,7 @@ public class EventMgr : BaseMgr_Mono<EventMgr>
     }
     #endregion
     /// <summary>
-    /// Çå¿ÕËùÓĞÊÂ¼ş
+    /// æ¸…ç©ºæ‰€æœ‰äº‹ä»¶
     /// </summary>
     public void Clear()
     {

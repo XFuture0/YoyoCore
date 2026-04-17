@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
@@ -11,7 +11,7 @@ public class LoadResourceMgr : BaseMgr<LoadResourceMgr>
 
     }
     /// <summary>
-    /// ¼ÓÔØResourcesÎÄ¼ş¼Ğ×ÊÔ´(Í¬²½)
+    /// åŠ è½½Resourcesæ–‡ä»¶å¤¹èµ„æº(åŒæ­¥)
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="path"></param>
@@ -26,12 +26,12 @@ public class LoadResourceMgr : BaseMgr<LoadResourceMgr>
         }
         else
         {
-            Debug.LogError("Â·¾¶Îª¿Õ»òÕßµ±Ç°Â·¾¶²»´æÔÚ: " + path);
+            Debug.LogError("è·¯å¾„ä¸ºç©ºæˆ–è€…å½“å‰è·¯å¾„ä¸å­˜åœ¨: " + path);
             return null;
         }
     }
     /// <summary>
-    /// ¼ÓÔØResourcesÎÄ¼ş¼Ğ×ÊÔ´(Òì²½)
+    /// åŠ è½½Resourcesæ–‡ä»¶å¤¹èµ„æº(å¼‚æ­¥)
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="path"></param>
@@ -47,7 +47,7 @@ public class LoadResourceMgr : BaseMgr<LoadResourceMgr>
         callback?.Invoke(rq.asset as T);
     }
     /// <summary>
-    /// Ğ¶ÔØResourcesÎÄ¼ş¼Ğ×ÊÔ´
+    /// å¸è½½Resourcesæ–‡ä»¶å¤¹èµ„æº
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="obj"></param>
@@ -59,7 +59,7 @@ public class LoadResourceMgr : BaseMgr<LoadResourceMgr>
         }
     }
     /// <summary>
-    /// ÇåÀíÎŞÓÃResources×ÊÔ´
+    /// æ¸…ç†æ— ç”¨Resourcesèµ„æº
     /// </summary>
     /// <param name="callback"></param>
     public void Clear(UnityAction callback)

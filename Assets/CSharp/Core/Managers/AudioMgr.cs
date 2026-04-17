@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -28,7 +28,7 @@ public class AudioMgr : BaseMgr<AudioMgr>
         }
     }
     /// <summary>
-    /// ²¥·Å±³¾°ÒôÀÖ
+    /// æ’­æ”¾èƒŒæ™¯éŸ³ä¹
     /// </summary>
     /// <param name="name"></param>
     public void PlayerBackMusic(string name)
@@ -45,7 +45,7 @@ public class AudioMgr : BaseMgr<AudioMgr>
         BackMusic.volume = BackMusicVolume;
     }
     /// <summary>
-    /// ¹Ø±Õ±³¾°ÒôÀÖ
+    /// å…³é—­èƒŒæ™¯éŸ³ä¹
     /// </summary>
     public void StopBackMusic()
     {
@@ -55,7 +55,7 @@ public class AudioMgr : BaseMgr<AudioMgr>
         }
     }
     /// <summary>
-    /// ÔİÍ£±³¾°ÒôÀÖ
+    /// æš‚åœèƒŒæ™¯éŸ³ä¹
     /// </summary>
     public void PauseBackMusic()
     {
@@ -65,7 +65,7 @@ public class AudioMgr : BaseMgr<AudioMgr>
         }
     }
     /// <summary>
-    /// ¸Ä±ä±³¾°ÒôÀÖÒôÁ¿
+    /// æ”¹å˜èƒŒæ™¯éŸ³ä¹éŸ³é‡
     /// </summary>
     /// <param name="volume"></param>
     public void ChangeBackMusicVolume(float volume)
@@ -77,7 +77,7 @@ public class AudioMgr : BaseMgr<AudioMgr>
         }
     }
     /// <summary>
-    /// Çå¿Õ±³¾°ÒôÀÖ
+    /// æ¸…ç©ºèƒŒæ™¯éŸ³ä¹
     /// </summary>
     public void ClearBackMusic()
     {
@@ -89,7 +89,7 @@ public class AudioMgr : BaseMgr<AudioMgr>
         }
     }
     /// <summary>
-    /// ²¥·ÅÒôĞ§
+    /// æ’­æ”¾éŸ³æ•ˆ
     /// </summary>
     /// <param name="name"></param>
     /// <param name="isLoop"></param>
@@ -112,7 +112,7 @@ public class AudioMgr : BaseMgr<AudioMgr>
         }
     }
     /// <summary>
-    /// ¹Ø±ÕÖ¸¶¨ÒôĞ§
+    /// å…³é—­æŒ‡å®šéŸ³æ•ˆ
     /// </summary>
     /// <param name="source"></param>
     public void StopSound(AudioSource source)
@@ -125,7 +125,7 @@ public class AudioMgr : BaseMgr<AudioMgr>
         }
     }
     /// <summary>
-    /// ¸Ä±äÒôĞ§ÒôÁ¿
+    /// æ”¹å˜éŸ³æ•ˆéŸ³é‡
     /// </summary>
     /// <param name="volume"></param>
     public void ChangeSoundVolume(float volume)
@@ -137,7 +137,7 @@ public class AudioMgr : BaseMgr<AudioMgr>
         }
     }
     /// <summary>
-    /// ÔİÍ£ÒôĞ§
+    /// æš‚åœéŸ³æ•ˆ
     /// </summary>
     /// <param name="isPlay"></param>
     public void PauseSound(bool isPlay)
@@ -160,7 +160,7 @@ public class AudioMgr : BaseMgr<AudioMgr>
         }
     }
     /// <summary>
-    /// Çå¿ÕÒôĞ§
+    /// æ¸…ç©ºéŸ³æ•ˆ
     /// </summary>
     public void ClearSound()
     {

@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 public class RayCastTool
 {
     /// <summary>
-    /// »ñÈ¡Ä¿±êÎ»ÖÃÏÂµÄµ¥Ò»·ºĞÍÍ¬Ãû×é¼ş
+    /// è·å–ç›®æ ‡ä½ç½®ä¸‹çš„å•ä¸€æ³›å‹åŒåç»„ä»¶
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="position"></param>
@@ -40,7 +40,7 @@ public class RayCastTool
         return null;
     }
     /// <summary>
-    /// »ñÈ¡Ä¿±êÎ»ÖÃÏÂµÄËùÓĞ·ºĞÍ×é¼ş
+    /// è·å–ç›®æ ‡ä½ç½®ä¸‹çš„æ‰€æœ‰æ³›å‹ç»„ä»¶
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="position"></param>

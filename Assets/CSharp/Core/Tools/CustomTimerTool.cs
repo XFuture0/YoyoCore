@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,7 +8,7 @@ public class CustomTimerTool : IDisposable
     private string Name;
     private float StartTime;
     /// <summary>
-    /// ¼ì²â´úÂë¿éµÄÖ´ĞĞÊ±¼ä£¬µ¥Î»ÎªºÁÃë
+    /// æ£€æµ‹ä»£ç å—çš„æ‰§è¡Œæ—¶é—´ï¼Œå•ä½ä¸ºæ¯«ç§’
     /// </summary>
     /// <param name="name"></param>
     /// <param name="num"></param>

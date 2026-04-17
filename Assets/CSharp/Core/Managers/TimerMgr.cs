@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.EditorTools;
 using UnityEngine;
@@ -44,7 +44,7 @@ public class TimerMgr : BaseMgr<TimerMgr>
 
     }
     /// <summary>
-    /// Æô¶¯×Ü¼ÆÊ±Æ÷
+    /// å¯åŠ¨æ€»è®¡æ—¶å™¨
     /// </summary>
     public void Start()
     {
@@ -96,7 +96,7 @@ public class TimerMgr : BaseMgr<TimerMgr>
         }
     }
     /// <summary>
-    /// Í£Ö¹×Ü¼ÆÊ±Æ÷
+    /// åœæ­¢æ€»è®¡æ—¶å™¨
     /// </summary>
     public void Stop()
     {
@@ -104,7 +104,7 @@ public class TimerMgr : BaseMgr<TimerMgr>
         MonoMgr.Instance.StopCoroutine(RealTimer);
     }
     /// <summary>
-    /// ´´½¨ĞÂ¼ÆÊ±Æ÷
+    /// åˆ›å»ºæ–°è®¡æ—¶å™¨
     /// </summary>
     /// <param name="isRealTime"></param>
     /// <param name="allTime"></param>
@@ -128,7 +128,7 @@ public class TimerMgr : BaseMgr<TimerMgr>
         return keyid;
     }
     /// <summary>
-    /// ÒÆ³ı¼ÆÊ±Æ÷
+    /// ç§»é™¤è®¡æ—¶å™¨
     /// </summary>
     /// <param name="keyID"></param>
     public void RemoveTimer(int keyID)
@@ -143,7 +143,7 @@ public class TimerMgr : BaseMgr<TimerMgr>
         }
     }
     /// <summary>
-    /// ÖØÖÃ¼ÆÊ±Æ÷
+    /// é‡ç½®è®¡æ—¶å™¨
     /// </summary>
     /// <param name="keyID"></param>
     public void ReSetTimer(int keyID)
@@ -158,7 +158,7 @@ public class TimerMgr : BaseMgr<TimerMgr>
         }
     }
     /// <summary>
-    /// Æô¶¯µ±Ç°ID¼ÆÊ±Æ÷
+    /// å¯åŠ¨å½“å‰IDè®¡æ—¶å™¨
     /// </summary>
     /// <param name="keyID"></param>
     public void StartTimer(int keyID)
@@ -177,7 +177,7 @@ public class TimerMgr : BaseMgr<TimerMgr>
         }
     }
     /// <summary>
-    /// Í£Ö¹µ±Ç°ID¼ÆÊ±Æ÷
+    /// åœæ­¢å½“å‰IDè®¡æ—¶å™¨
     /// </summary>
     /// <param name="keyID"></param>
     public void StopTimer(int keyID)
@@ -192,7 +192,7 @@ public class TimerMgr : BaseMgr<TimerMgr>
         }
     }
     /// <summary>
-    /// ¼ì²éµ±Ç°ID¼ÆÊ±Æ÷Ê£ÓàÊ±¼ä
+    /// æ£€æŸ¥å½“å‰IDè®¡æ—¶å™¨å‰©ä½™æ—¶é—´
     /// </summary>
     /// <param name="keyID"></param>
     /// <returns></returns>

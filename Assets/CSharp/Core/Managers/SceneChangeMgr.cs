@@ -1,4 +1,4 @@
-using System.Collections;
+锘縰sing System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics.Tracing;
 using UnityEngine;
@@ -12,7 +12,7 @@ public class SceneChangeMgr : BaseMgr<SceneChangeMgr>
 
     }
     /// <summary>
-    /// 加载场景(同步)
+    /// 鍔犺浇鍦烘櫙(鍚屾)
     /// </summary>
     /// <param name="sceneName"></param>
     /// <param name="callback"></param>
@@ -22,7 +22,7 @@ public class SceneChangeMgr : BaseMgr<SceneChangeMgr>
         callback?.Invoke();
     }
     /// <summary>
-    /// 加载场景(异步)
+    /// 鍔犺浇鍦烘櫙(寮傛)
     /// </summary>
     /// <param name="sceneName"></param>
     /// <param name="callback"></param>

@@ -1,9 +1,9 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 /// <summary>
-/// Mono¹ÜÀíÆ÷,ÓÃÓÚ·ÇMono¶ÔÏóµ÷ÓÃÉúÃüÖÜÆÚº¯Êı
+/// Monoç®¡ç†å™¨,ç”¨äºéMonoå¯¹è±¡è°ƒç”¨ç”Ÿå‘½å‘¨æœŸå‡½æ•°
 /// </summary>
 public class MonoMgr : BaseMgr_Mono<MonoMgr>
 {
@@ -15,7 +15,7 @@ public class MonoMgr : BaseMgr_Mono<MonoMgr>
 
     }
     /// <summary>
-    /// Ìí¼ÓUpdateÊÂ¼ş,¿ªÆô×¢²áºóĞè¼ÇµÃ×¢Ïú
+    /// æ·»åŠ Updateäº‹ä»¶,å¼€å¯æ³¨å†Œåéœ€è®°å¾—æ³¨é”€
     /// </summary>
     /// <param name="unityAction"></param>
     public void AddUpdateListener(UnityAction unityAction)
@@ -23,7 +23,7 @@ public class MonoMgr : BaseMgr_Mono<MonoMgr>
         OnUpdate += unityAction;
     }
     /// <summary>
-    /// Ìí¼ÓFixedUpdateÊÂ¼ş£¬¿ªÆô×¢²áºóĞè¼ÇµÃ×¢Ïú
+    /// æ·»åŠ FixedUpdateäº‹ä»¶ï¼Œå¼€å¯æ³¨å†Œåéœ€è®°å¾—æ³¨é”€
     /// </summary>
     /// <param name="unityAction"></param>
     public void AddFixedUpdateListener(UnityAction unityAction)
@@ -31,7 +31,7 @@ public class MonoMgr : BaseMgr_Mono<MonoMgr>
         OnFixedUpdate += unityAction;
     }
     /// <summary>
-    /// Ìí¼ÓLateUpdateÊÂ¼ş£¬¿ªÆô×¢²áºóĞè¼ÇµÃ×¢Ïú
+    /// æ·»åŠ LateUpdateäº‹ä»¶ï¼Œå¼€å¯æ³¨å†Œåéœ€è®°å¾—æ³¨é”€
     /// </summary>
     /// <param name="unityAction"></param>
     public void AddLateUpdateListener(UnityAction unityAction)
@@ -39,7 +39,7 @@ public class MonoMgr : BaseMgr_Mono<MonoMgr>
         OnLateUpdate += unityAction;
     }
     /// <summary>
-    /// ÒÆ³ıUpdateÊÂ¼ş
+    /// ç§»é™¤Updateäº‹ä»¶
     /// </summary>
     /// <param name="unityAction"></param>
     public void RemoveUpdateListener(UnityAction unityAction)
@@ -47,7 +47,7 @@ public class MonoMgr : BaseMgr_Mono<MonoMgr>
         OnUpdate -= unityAction;
     }
     /// <summary>
-    /// ÒÆ³ıFixedUpdateÊÂ¼ş
+    /// ç§»é™¤FixedUpdateäº‹ä»¶
     /// </summary>
     /// <param name="unityAction"></param>
     public void RemoveFixedUpdateListener(UnityAction unityAction)
@@ -55,7 +55,7 @@ public class MonoMgr : BaseMgr_Mono<MonoMgr>
         OnFixedUpdate -= unityAction;
     }
     /// <summary>
-    /// ÒÆ³ıLateUpdateÊÂ¼ş
+    /// ç§»é™¤LateUpdateäº‹ä»¶
     /// </summary>
     /// <param name="unityAction"></param>
     public void RemoveLateUpdateListener(UnityAction unityAction)

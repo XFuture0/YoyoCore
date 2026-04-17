@@ -1,10 +1,10 @@
-using System;
+ï»¿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
 /// <summary>
-/// ·Ç¼Ì³ĞMonoµ¥Àı
+/// éç»§æ‰¿Monoå•ä¾‹
 /// </summary>
 /// <typeparam name="T"></typeparam>
 public abstract class BaseMgr<T> where T : class
@@ -28,9 +28,9 @@ public abstract class BaseMgr<T> where T : class
                                                                    null);
                         if (info != null)
                         {
-                            instance = info.Invoke(null) as T;//ÎŞ²ÎÊı
+                            instance = info.Invoke(null) as T;//æ— å‚æ•°
                         }
-                        else Debug.LogError($"½Å±¾{type.Name}µÄ¹¹Ôìº¯Êı·Ç¾²Ì¬£¬Çë¼ì²éÊÇ·ñ¹¹Ôìº¯ÊıÎª¹«¿ª»ò²»´æÔÚ");
+                        else Debug.LogError($"è„šæœ¬{type.Name}çš„æ„é€ å‡½æ•°éé™æ€ï¼Œè¯·æ£€æŸ¥æ˜¯å¦æ„é€ å‡½æ•°ä¸ºå…¬å¼€æˆ–ä¸å­˜åœ¨");
                     }
                 }
             }

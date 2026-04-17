@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -43,7 +43,7 @@ public class InputMgr : BaseMgr<InputMgr>
         MonoMgr.Instance.AddUpdateListener(Update);
     }
     /// <summary>
-    /// Æô¶¯»òÕß¹Ø±ÕÊäÈë
+    /// å¯åŠ¨æˆ–è€…å…³é—­è¾“å…¥
     /// </summary>
     /// <param name="isStart"></param>
     public void StartOrCloseInput(bool isStart)
@@ -107,7 +107,7 @@ public class InputMgr : BaseMgr<InputMgr>
         }
     }
     /// <summary>
-    /// ĞŞ¸Ä»ò¼ÓÈë¼üÅÌ°´¼üĞÅÏ¢
+    /// ä¿®æ”¹æˆ–åŠ å…¥é”®ç›˜æŒ‰é”®ä¿¡æ¯
     /// </summary>
     /// <param name="eventType"></param>
     /// <param name="key"></param>
@@ -130,7 +130,7 @@ public class InputMgr : BaseMgr<InputMgr>
         }
     }
     /// <summary>
-    /// ĞŞ¸Ä»òÕß¼ÓÈëÊó±ê°´¼üĞÅÏ¢
+    /// ä¿®æ”¹æˆ–è€…åŠ å…¥é¼ æ ‡æŒ‰é”®ä¿¡æ¯
     /// </summary>
     /// <param name="eventType"></param>
     /// <param name="mouseCode"></param>
@@ -153,7 +153,7 @@ public class InputMgr : BaseMgr<InputMgr>
         }
     }
     /// <summary>
-    /// ÒÆ³ıÊäÈëÊÂ¼ş
+    /// ç§»é™¤è¾“å…¥äº‹ä»¶
     /// </summary>
     /// <param name="eventType"></param>
     public void RemoveInputInfo(EventType eventType)

@@ -1,11 +1,11 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class DebugTool
 {
     /// <summary>
-    /// ÆÕÍ¨ÈÕÖ¾Êä³ö
+    /// æ™®é€šæ—¥å¿—è¾“å‡º
     /// </summary>
     /// <param name="info"></param>
     public static void Log(object info)
@@ -14,7 +14,7 @@ public class DebugTool
         return;
     }
     /// <summary>
-    /// ¾¯¸æÈÕÖ¾Êä³ö
+    /// è­¦å‘Šæ—¥å¿—è¾“å‡º
     /// </summary>
     /// <param name="info"></param>
     public static void LogWarning(object info)
@@ -23,7 +23,7 @@ public class DebugTool
         return;
     }
     /// <summary>
-    /// ´íÎóÈÕÖ¾Êä³ö
+    /// é”™è¯¯æ—¥å¿—è¾“å‡º
     /// </summary>
     /// <param name="info"></param>
     public static void LogError(object info)

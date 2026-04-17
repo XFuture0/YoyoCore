@@ -1,7 +1,7 @@
-
+ï»¿
 public class Setting
 {
-    public static bool IsOpenLayOut = true;// ÊÇ·ñ¿ªÆô¶ÔÏó³Ø²¼¾Ö
-    public static float IntervalTime = 0.05f;//¼ÆÊ±Æ÷¹ÜÀíÆ÷Ë¢ĞÂ¼ä¸ôÊ±¼ä
-    public static bool isDebugMode = true; // ÊÇ·ñÊä³öÈÕÖ¾
+    public static bool IsOpenLayOut = true;// æ˜¯å¦å¼€å¯å¯¹è±¡æ± å¸ƒå±€
+    public static float IntervalTime = 0.05f;//è®¡æ—¶å™¨ç®¡ç†å™¨åˆ·æ–°é—´éš”æ—¶é—´
+    public static bool isDebugMode = true; // æ˜¯å¦è¾“å‡ºæ—¥å¿—
 }
